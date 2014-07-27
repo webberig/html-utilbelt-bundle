@@ -1,5 +1,7 @@
 <?php
+namespace Webberig\HtmlUtilbelt\Bundle\DependencyInjection;
 
+use Symfony\Cmf\Bundle\CoreBundle\DependencyInjection\Configuration;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
