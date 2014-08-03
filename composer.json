@@ -10,7 +10,7 @@
     ],
     "require": {
         "symfony/framework-bundle": "~2.2",
-        "webberig/html-utilbelt-twig": "~1.0"
+        "webberig/html-utilbelt-twig": "~1.0.0"
     },
     "autoload": {
         "psr-4": {

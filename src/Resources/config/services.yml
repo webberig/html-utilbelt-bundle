@@ -1,17 +1,17 @@
 services:
-	webberig_htmlutilbelt_bootstrap:
-    	class:	Webberig\HtmlUtilbelt\Twig\BootstrapExtension
+    webberig_htmlutilbelt_bootstrap:
+        class:	Webberig\HtmlUtilbelt\Twig\BootstrapExtension
         tags:
             - { name: twig.extension }
-	webberig_htmlutilbelt_general:
-    	class:	Webberig\HtmlUtilbelt\Twig\GeneralExtension
+    webberig_htmlutilbelt_general:
+        class:	Webberig\HtmlUtilbelt\Twig\GeneralExtension
         tags:
             - { name: twig.extension }
-	webberig_htmlutilbelt_heading:
-    	class:	Webberig\HtmlUtilbelt\Twig\HeadingExtension
+    webberig_htmlutilbelt_heading:
+        class:	Webberig\HtmlUtilbelt\Twig\HeadingExtension
         tags:
             - { name: twig.extension }
-	webberig_htmlutilbelt_link:
-    	class:	Webberig\HtmlUtilbelt\Twig\LinkExtension
+    webberig_htmlutilbelt_link:
+        class:	Webberig\HtmlUtilbelt\Twig\LinkExtension
         tags:
             - { name: twig.extension }
